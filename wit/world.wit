@@ -1,4 +1,4 @@
-package jabratech:provider-index@0.1.1;
+package jabratech:provider-index;
 
 interface index {
     get-index: func(currency: string) -> result<f64, string>;
